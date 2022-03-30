@@ -15,6 +15,12 @@ for (let i = 0; i < 10; i++) {
 }
 
 // stampo la somma
-console.log(`somma finale: ${total}`);
+// console.log(`somma finale: ${total}`);
     
 
+if (isNaN(total)) {
+    console.log(`errore inserito: ${total}`);
+ } else {
+    console.log(`somma finale: ${total}`);
+    
+ }
